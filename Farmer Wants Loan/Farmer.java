@@ -63,8 +63,8 @@ class FarmerExpenses{
 
 public class Farmer {
     public static void main(String[] args) {
-//        FarmerExpenses fm1 = new FarmerExpenses();
-//        fm1.getSimpleInterest();
+        FarmerExpenses fm1 = new FarmerExpenses();
+        fm1.getSimpleInterest();
 
         FarmerExpenses fm2 = new FarmerExpenses(100, 4);
         fm2.getSimpleInterest();
